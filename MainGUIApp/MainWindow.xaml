@@ -1,0 +1,21 @@
+﻿<Window
+    x:Class="MainGUIApp.MainWindow"
+    xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+    xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+    xmlns:Views="clr-namespace:MvvmUserCtrlFSM.Views;assembly=MvvmUserCtrlFSM"
+    xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+    xmlns:local="clr-namespace:MainGUIApp"
+    xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+    Title="Calculator"
+    Width="420"
+    Height="632"
+    MinWidth="340"
+    MinHeight="510"
+    mc:Ignorable="d">
+
+    <Border>
+
+        <Views:CalculatorView />
+
+    </Border>
+</Window>
